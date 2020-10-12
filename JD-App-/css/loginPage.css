@@ -1,0 +1,134 @@
+html,body{
+    height: 100%;
+}
+.loginColor{
+    background-color: #fff;
+    height: 100%;
+}
+.login{
+    width: 30rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+.login_top{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color:#000;
+    position: relative;
+    font-weight: 550;
+}
+.login_top::before{
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background: url(../Images/1598862627.png) no-repeat 139% 48%;
+    background-size: 1rem;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.login>label{
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    color: #000;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+.login>label>input{
+    color: #9999ce;
+    flex: 1;
+    font-size: 0.85rem;
+}
+
+.login>label:nth-child(1)>span{
+    display: inline-block;
+    flex: 0  0 1.25rem;
+    margin:0px 0.15rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+/*  */
+.login>label:nth-child(1)>span:nth-child(2){
+    background: url(../Images/snipaste20200901_173435.png) no-repeat 0% 57%;
+    background-size: 1rem;
+}
+.login>label:nth-child(2)>span{
+       flex: 0 0 9rem;
+       color: #8a898b;
+       font-size: 0.8rem;
+       text-align: center;
+       border-left: 1px solid #8a898b;
+       height: 1.25rem;
+       line-height: 1.25rem;
+       margin-top: 0.75rem;
+       cursor: pointer;
+
+}
+.login button{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin: 0.75rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-image: linear-gradient(270deg,#f2270c,#ff4b2b);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+
+    opacity: .55;
+    cursor: pointer;
+}
+.login>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.login>div>span{
+    flex:0 0 8rem;
+    font-size: o.85rem;
+    color: #8a898b;
+    cursor: pointer;
+}
+.login>div>span:nth-child(2){
+    text-align: right;
+}
+.qita{
+    width: 30rem;
+    height: 30%;
+    margin: 1rem;
+    background: url(../Images/snipaste20200901_085447.png) no-repeat -0.8rem 0%;
+    background-size: 31.45rem;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+.qita>img{
+    display: inline-block;
+    margin-top: 2.5rem;
+    width: 15%;
+    
+}
+.qita>p{
+    font-size: 0.4rem;
+}
+.qita>p>i{
+    color: #13b7f5;
+    font-size: 0.65rem;
+    cursor: pointer;
+    margin-left: 0.25rem;
+}
